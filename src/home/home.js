@@ -30,6 +30,7 @@ useEffect(() => {
                         <div className='content'>
                             <button class="btn">INR<i class="fa-solid fa-circle-chevron-down" style={{ marginLeft: '10px' }}></i></button>
                             <button class="btn">Btc<i class="fa-solid fa-circle-chevron-down" style={{ marginLeft: '10px' }}></i></button>
+                            <button class="btn">Buy Btc</button>
 
                         </div>
                         <div className='social-icons'>
