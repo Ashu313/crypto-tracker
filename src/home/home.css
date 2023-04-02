@@ -121,7 +121,7 @@ button{
   overflow-x: auto;
 }
 table {
-  border-spacing: 0 2em;
+  border-spacing: 0 1em;
   width: 100%;
   height: auto;
   border-collapse: separate;
@@ -180,7 +180,33 @@ span{
 i{
   margin-right: 10px;
 }
-
+.footer{
+  border: solid 1px #191d28;
+    background-color: #191d28;
+    position: fixed;
+    left: 0;
+    align-items: center;
+    width: 100vw;
+    height: 47px;
+    bottom: 0;
+    z-index: 8;
+    display: flex;
+    justify-content: center;
+}
+.btn1{
+display: flex;
+    justify-content: center;
+    /* background: blue; */
+    color: #17a2b8;
+    border-color: #17a2b8;
+    border: 2px solid;
+}
+.buy{
+  color: #17a2b8;
+}
+.sell{
+  color: #17a2b8;
+}
 
 @media screen and (max-width:768px) {
  .header{

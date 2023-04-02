@@ -100,8 +100,8 @@ useEffect(() => {
                                      <td>{++count}</td>
                                   <td>{ticker?.name}</td>
                                    <td>{ticker?.last}</td>
-                                    <td>{ticker?.buy}</td>
-                                   <td>{ticker?.sell}</td>
+                                    <td className='buy'>{ticker?.buy}</td>
+                                   <td className='sell'>{ticker?.sell}</td>
                                   <td>{ticker?.volume}</td>
                                  <td>{ticker?.base_unit}</td>
 
@@ -112,6 +112,12 @@ useEffect(() => {
 </>
 }
                     </div>
+                </div>
+
+                <div className='footer'>
+                    <button className='btn1'>
+                        Add to home screen
+                    </button>
                 </div>
             </div>
 
