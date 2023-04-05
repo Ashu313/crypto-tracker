@@ -23,3 +23,4 @@ app.get('/', (req, res) => {
   app.get('/tickers',getTickersData);
 
 
+  module.exports=app;
