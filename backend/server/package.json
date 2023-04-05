@@ -5,7 +5,7 @@
   "main": "App.js",
   "scripts": {
     "nodemon": "nodemon",
-    "start": "node Server.js"
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
